@@ -1,20 +1,71 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# Smart Recipe Deconstructor
+
+Offline edge AI — privacy-first recipe parsing with no API calls.
+
 </div>
 
-# Run and deploy your AI Studio app
+## Project structure
 
-This contains everything you need to run your app locally.
+```
+Smart-Recipe-/
+├── typescript/          ← ALL application code (show this to your teacher)
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── types.ts
+│   ├── presets.ts
+│   ├── components/      UI screens
+│   ├── ml/              On-device AI inference
+│   ├── server.ts        Dev server
+│   └── evaluate-offline.ts
+├── ml/                  Python training pipeline
+├── public/models/       Trained model + evaluation metrics
+├── android/             Android APK (Capacitor)
+├── config/              Vite build config
+├── index.html           Web entry HTML
+└── package.json
+```
 
-View your app in AI Studio: https://ai.studio/apps/ebc41dd3-a6c8-4d3b-a926-e19917542886
+## Open in web browser
 
-## Run Locally
+**Prerequisites:** [Node.js](https://nodejs.org/) installed
 
-**Prerequisites:**  Node.js
+```bash
+npm install
+npm run ml:all    # optional: train model (first time)
+npm run dev
+```
 
+Open in your browser: **http://localhost:3000**
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+No API keys required. Recipe deconstruction runs fully on-device.
+
+## Assignment deliverables
+
+| Requirement | Result |
+|-------------|--------|
+| Model < 50 MB | ~0.10 MB (`public/models/category_model.json`) |
+| 100% offline | Browser / Android WebView |
+| ≥ 90% accuracy | 94.64% (see `public/models/evaluation_metrics.json`) |
+| < 2 s latency | ~75 ms p95 |
+| Demo + metrics + model | Web app + Android project + JSON metrics |
+
+## Android APK
+
+```bash
+npm run build
+npx cap sync
+npx cap open android
+```
+
+Build APK in Android Studio: **Build → Build APK**.
+
+## ML pipeline (Python)
+
+```bash
+pip install -r ml/requirements.txt
+npm run ml:all
+```
+
+See `typescript/README.md` for a full file-by-file guide to the TypeScript code.
