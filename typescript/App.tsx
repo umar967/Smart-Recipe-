@@ -15,6 +15,7 @@ import {
 } from "lucide-react";
 import { Recipe, Ingredient, ShoppingItem } from "./types";
 import { PRESETS } from "./presets";
+import { deconstructRecipe } from "./ml/deconstructRecipe";
 import InputScreen from "./components/InputScreen";
 import DashboardScreen from "./components/DashboardScreen";
 import ShoppingListScreen from "./components/ShoppingListScreen";
@@ -82,23 +83,7 @@ export default function App() {
     setLoading(true);
     setError(null);
     try {
-      const response = await fetch("/api/deconstruct", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ recipeText }),
-      });
-
-      if (!response.ok) {
-        const errorData = await response.json().catch(() => ({}));
-        throw new Error(errorData.error || `Server responded with status code ${response.status}`);
-      }
-
-      const data = await response.json();
-
-      // Check if data has ingredients & steps
-      if (!data.recipeName || !data.ingredients || !data.steps) {
-        throw new Error("Parsed data returned from Gemini was missing standard fields. Please try again.");
-      }
+      const data = await deconstructRecipe(recipeText);
 
       const generatedRecipe: Recipe = {
         ...data,
@@ -119,7 +104,7 @@ export default function App() {
       setActiveTab("dashboard");
     } catch (err: any) {
       console.error(err);
-      setError(err.message || "An error occurred with your internet connection or the server.");
+      setError(err.message || "An error occurred while deconstructing the recipe on-device.");
     } finally {
       setLoading(false);
     }

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Smart Recipe Deconstructor</string>
+    <string name="title_activity_main">Smart Recipe Deconstructor</string>
+    <string name="package_name">com.smartrecipe.deconstructor</string>
+    <string name="custom_url_scheme">com.smartrecipe.deconstructor</string>
+</resources>

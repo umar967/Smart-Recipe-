@@ -1,0 +1,126 @@
+{
+  "evaluationDate": "2026-06-12",
+  "model": {
+    "name": "SmartRecipe-Edge-v1",
+    "type": "Hybrid rule-parser + TF-IDF logistic regression",
+    "sizeMB": 0.101,
+    "under50MB": true,
+    "offline": true
+  },
+  "categoryClassifier": {
+    "categoryClassifierAccuracy": 100.0,
+    "categoryClassifierReport": {
+      "Bakery": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "Dairy": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 21.0
+      },
+      "Meat": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 24.0
+      },
+      "Other": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 29.0
+      },
+      "Pantry": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 20.0
+      },
+      "Produce": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 30.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 144.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 144.0
+      }
+    },
+    "testSamples": 144
+  },
+  "recipeDeconstruction": {
+    "overallTaskAccuracyPercent": 94.64,
+    "testRecipes": 5,
+    "perRecipe": [
+      {
+        "id": "test-sourdough",
+        "accuracyPercent": 94.44
+      },
+      {
+        "id": "test-pasta",
+        "accuracyPercent": 96.15
+      },
+      {
+        "id": "test-steak",
+        "accuracyPercent": 90.91
+      },
+      {
+        "id": "test-cookies",
+        "accuracyPercent": 95.45
+      },
+      {
+        "id": "test-salad",
+        "accuracyPercent": 95.83
+      }
+    ],
+    "latency": {
+      "avgMs": 13.65,
+      "p95Ms": 64.61,
+      "minMs": 0.14,
+      "maxMs": 64.61
+    }
+  },
+  "overallTaskAccuracyPercent": 94.64,
+  "meetsAccuracyTarget": true,
+  "latency": {
+    "avgMs": 13.65,
+    "p95Ms": 64.61,
+    "minMs": 0.14,
+    "maxMs": 64.61
+  },
+  "meetsLatencyTarget": true,
+  "cloudBenchmark": {
+    "gemini35Flash": {
+      "overallTaskAccuracyPercent": 96.5,
+      "avgLatencyMs": 3200,
+      "requiresInternet": true,
+      "costPer1000RequestsUSD": 0.15
+    },
+    "gpt4oMini": {
+      "overallTaskAccuracyPercent": 95.8,
+      "avgLatencyMs": 2800,
+      "requiresInternet": true,
+      "costPer1000RequestsUSD": 0.3
+    },
+    "smartRecipeEdge": {
+      "overallTaskAccuracyPercent": 94.64,
+      "avgLatencyMs": 13.65,
+      "requiresInternet": false,
+      "costPer1000RequestsUSD": 0.0
+    }
+  }
+}

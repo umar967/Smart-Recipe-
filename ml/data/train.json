@@ -1,0 +1,2306 @@
+[
+  {
+    "text": "Fresh Feta Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Free-Range Pork Tenderloin",
+    "category": "Meat"
+  },
+  {
+    "text": "Fresh Mozzarella",
+    "category": "Dairy"
+  },
+  {
+    "text": "Premium Pork Tenderloin",
+    "category": "Meat"
+  },
+  {
+    "text": "Organic Parmesan Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Cold-Pressed Balsamic Vinegar",
+    "category": "Pantry"
+  },
+  {
+    "text": "Artisan Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Grass-Fed Ginger Root",
+    "category": "Produce"
+  },
+  {
+    "text": "Free-Range Filtered Water",
+    "category": "Pantry"
+  },
+  {
+    "text": "Wild Arborio Rice",
+    "category": "Pantry"
+  },
+  {
+    "text": "Grass-Fed Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Cold-Pressed Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Fresh Miso Paste",
+    "category": "Other"
+  },
+  {
+    "text": "Organic Strong Bread Flour",
+    "category": "Pantry"
+  },
+  {
+    "text": "Italian Sausage",
+    "category": "Meat"
+  },
+  {
+    "text": "Extra-Virgin Paprika",
+    "category": "Pantry"
+  },
+  {
+    "text": "Heirloom Balsamic Vinegar",
+    "category": "Pantry"
+  },
+  {
+    "text": "Artisan Pickles",
+    "category": "Other"
+  },
+  {
+    "text": "Heirloom Mascarpone",
+    "category": "Dairy"
+  },
+  {
+    "text": "Extra-Virgin Croissants",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Fresh Mint",
+    "category": "Produce"
+  },
+  {
+    "text": "Maple Syrup",
+    "category": "Pantry"
+  },
+  {
+    "text": "Artisan Salmon Fillet",
+    "category": "Meat"
+  },
+  {
+    "text": "Artisan Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Cold-Pressed Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Heirloom Yellow Onion",
+    "category": "Produce"
+  },
+  {
+    "text": "Grass-Fed Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Soy Sauce",
+    "category": "Pantry"
+  },
+  {
+    "text": "Organic Tofu Block",
+    "category": "Other"
+  },
+  {
+    "text": "Premium Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Extra-Virgin English Muffins",
+    "category": "Bakery"
+  },
+  {
+    "text": "Fresh Parmesan Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Extra-Virgin Yellow Onion",
+    "category": "Produce"
+  },
+  {
+    "text": "Grass-Fed Shrimp",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Fresh Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Salmon Fillet",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Active Sourdough Starter",
+    "category": "Other"
+  },
+  {
+    "text": "Premium Chicken Stock",
+    "category": "Pantry"
+  },
+  {
+    "text": "Cold-Pressed Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Rolled Oats",
+    "category": "Pantry"
+  },
+  {
+    "text": "Grass-Fed Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Cold-Pressed Wine",
+    "category": "Other"
+  },
+  {
+    "text": "Premium Canned Tomatoes",
+    "category": "Pantry"
+  },
+  {
+    "text": "Cold-Pressed Prosciutto",
+    "category": "Meat"
+  },
+  {
+    "text": "Fresh Lemon Zest",
+    "category": "Produce"
+  },
+  {
+    "text": "Organic Mozzarella",
+    "category": "Dairy"
+  },
+  {
+    "text": "Unsalted Prime Ribeye Steaks",
+    "category": "Meat"
+  },
+  {
+    "text": "Cold-Pressed Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Grass-Fed Fresh Rosemary Sprigs",
+    "category": "Produce"
+  },
+  {
+    "text": "Heirloom Buttermilk",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed English Muffins",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Pita Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Heirloom Pork Tenderloin",
+    "category": "Meat"
+  },
+  {
+    "text": "Wild Garlic Cloves",
+    "category": "Produce"
+  },
+  {
+    "text": "Unsalted Wine",
+    "category": "Other"
+  },
+  {
+    "text": "Premium Fresh Sweet Basil",
+    "category": "Produce"
+  },
+  {
+    "text": "Extra-Virgin Scallions",
+    "category": "Produce"
+  },
+  {
+    "text": "Cold-Pressed Wine",
+    "category": "Other"
+  },
+  {
+    "text": "Cold-Pressed Sour Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Whole Milk",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Heavy Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Tofu Block",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Parmesan Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Prosciutto",
+    "category": "Meat"
+  },
+  {
+    "text": "Premium Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Heirloom Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Heirloom Unsalted Grass-fed Butter",
+    "category": "Dairy"
+  },
+  {
+    "text": "Free-Range Sea Salt",
+    "category": "Pantry"
+  },
+  {
+    "text": "Cold-Pressed Italian Sausage",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Bacon Strips",
+    "category": "Meat"
+  },
+  {
+    "text": "Wild Ricotta",
+    "category": "Dairy"
+  },
+  {
+    "text": "Organic Sour Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Organic Cheddar Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Free-Range Shrimp",
+    "category": "Meat"
+  },
+  {
+    "text": "Heirloom Lemon Zest",
+    "category": "Produce"
+  },
+  {
+    "text": "Fresh Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Tofu Block",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Kale Leaves",
+    "category": "Produce"
+  },
+  {
+    "text": "Unsalted Croissants",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Ricotta",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Vanilla Extract",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Sea Salt",
+    "category": "Pantry"
+  },
+  {
+    "text": "Grass-Fed Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Fresh Maple Syrup",
+    "category": "Pantry"
+  },
+  {
+    "text": "Artisan Celery Stalk",
+    "category": "Produce"
+  },
+  {
+    "text": "Extra-Virgin Cheddar Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Artisan Feta Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild English Muffins",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Canola Oil",
+    "category": "Pantry"
+  },
+  {
+    "text": "Wild Cherry Tomatoes",
+    "category": "Produce"
+  },
+  {
+    "text": "Cold-Pressed English Muffins",
+    "category": "Bakery"
+  },
+  {
+    "text": "Pasta Noodles",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Mushrooms",
+    "category": "Produce"
+  },
+  {
+    "text": "Extra-Virgin Cornstarch",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Premium Brioche Buns",
+    "category": "Bakery"
+  },
+  {
+    "text": "Heirloom Ricotta",
+    "category": "Dairy"
+  },
+  {
+    "text": "Heirloom Brioche Buns",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Bacon Strips",
+    "category": "Meat"
+  },
+  {
+    "text": "Heirloom Feta Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Organic Cumin",
+    "category": "Pantry"
+  },
+  {
+    "text": "Wild Strong Bread Flour",
+    "category": "Pantry"
+  },
+  {
+    "text": "Wild Cream Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Extra-Virgin Prosciutto",
+    "category": "Meat"
+  },
+  {
+    "text": "Maple Syrup",
+    "category": "Pantry"
+  },
+  {
+    "text": "Unsalted Miso Paste",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Heavy Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Free-Range Vanilla Extract",
+    "category": "Pantry"
+  },
+  {
+    "text": "Fresh Sweet Basil",
+    "category": "Produce"
+  },
+  {
+    "text": "Grass-Fed Sour Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Organic Jalape\u00f1o Pepper",
+    "category": "Produce"
+  },
+  {
+    "text": "Organic Greek Yogurt",
+    "category": "Dairy"
+  },
+  {
+    "text": "Organic Shallots",
+    "category": "Produce"
+  },
+  {
+    "text": "Free-Range Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Wild Cream Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Cold-Pressed Carrots",
+    "category": "Produce"
+  },
+  {
+    "text": "Fresh Wine",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Black Pepper",
+    "category": "Pantry"
+  },
+  {
+    "text": "Grass-Fed Pasta Noodles",
+    "category": "Pantry"
+  },
+  {
+    "text": "Unsalted Croissants",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Brioche Buns",
+    "category": "Bakery"
+  },
+  {
+    "text": "Fresh Lime Juice",
+    "category": "Produce"
+  },
+  {
+    "text": "Artisan Chicken Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Cold-Pressed Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Premium Lamb Chops",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Pita Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Premium Unsalted Grass-fed Butter",
+    "category": "Dairy"
+  },
+  {
+    "text": "Artisan Parmesan Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Organic Prime Ribeye Steaks",
+    "category": "Meat"
+  },
+  {
+    "text": "Cold-Pressed Sea Salt",
+    "category": "Pantry"
+  },
+  {
+    "text": "Extra-Virgin Carrots",
+    "category": "Produce"
+  },
+  {
+    "text": "Cold-Pressed Cheddar Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Extra-Virgin Lime Juice",
+    "category": "Produce"
+  },
+  {
+    "text": "Cream Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild Cornstarch",
+    "category": "Pantry"
+  },
+  {
+    "text": "Zucchini",
+    "category": "Produce"
+  },
+  {
+    "text": "Cold-Pressed Pickles",
+    "category": "Other"
+  },
+  {
+    "text": "Grass-Fed Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Heirloom Celery Stalk",
+    "category": "Produce"
+  },
+  {
+    "text": "Heirloom Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Chicken Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Premium Salmon Fillet",
+    "category": "Meat"
+  },
+  {
+    "text": "Cornstarch",
+    "category": "Pantry"
+  },
+  {
+    "text": "Heirloom Italian Sausage",
+    "category": "Meat"
+  },
+  {
+    "text": "Fresh Cilantro",
+    "category": "Produce"
+  },
+  {
+    "text": "Grass-Fed Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Free-Range Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Unsalted Mascarpone",
+    "category": "Dairy"
+  },
+  {
+    "text": "Cold-Pressed Brioche Buns",
+    "category": "Bakery"
+  },
+  {
+    "text": "Cold-Pressed Prime Ribeye Steaks",
+    "category": "Meat"
+  },
+  {
+    "text": "Artisan Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Prime Ribeye Steaks",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Italian Sausage",
+    "category": "Meat"
+  },
+  {
+    "text": "Organic Carrots",
+    "category": "Produce"
+  },
+  {
+    "text": "Unsalted Whole Milk",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild Prime Ribeye Steaks",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Vanilla Extract",
+    "category": "Pantry"
+  },
+  {
+    "text": "Free-Range Arborio Rice",
+    "category": "Pantry"
+  },
+  {
+    "text": "Heirloom Italian Sausage",
+    "category": "Meat"
+  },
+  {
+    "text": "Wild Prime Ribeye Steaks",
+    "category": "Meat"
+  },
+  {
+    "text": "Organic Chicken Stock",
+    "category": "Pantry"
+  },
+  {
+    "text": "Free-Range Soy Sauce",
+    "category": "Pantry"
+  },
+  {
+    "text": "Grass-Fed Filtered Water",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Coconut Milk",
+    "category": "Pantry"
+  },
+  {
+    "text": "Extra-Virgin Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Premium Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Cornstarch",
+    "category": "Pantry"
+  },
+  {
+    "text": "Artisan Yellow Onion",
+    "category": "Produce"
+  },
+  {
+    "text": "Heirloom Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Premium Lime Juice",
+    "category": "Produce"
+  },
+  {
+    "text": "Heirloom Chicken Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Pork Tenderloin",
+    "category": "Meat"
+  },
+  {
+    "text": "Premium Pita Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Unsalted All-Purpose Flour",
+    "category": "Pantry"
+  },
+  {
+    "text": "Cold-Pressed Ground Beef",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Fresh Parsley",
+    "category": "Produce"
+  },
+  {
+    "text": "Organic Cold Pressed Olive Oil",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Bacon Strips",
+    "category": "Meat"
+  },
+  {
+    "text": "Premium Ground Beef",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Salmon Fillet",
+    "category": "Meat"
+  },
+  {
+    "text": "Organic Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Kale Leaves",
+    "category": "Produce"
+  },
+  {
+    "text": "Premium Mascarpone",
+    "category": "Dairy"
+  },
+  {
+    "text": "Organic Shallots",
+    "category": "Produce"
+  },
+  {
+    "text": "Fresh Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Heirloom Organic Heirloom Tomatoes",
+    "category": "Produce"
+  },
+  {
+    "text": "Free-Range Pasta Noodles",
+    "category": "Pantry"
+  },
+  {
+    "text": "Wild Carrots",
+    "category": "Produce"
+  },
+  {
+    "text": "Organic Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Premium Tofu Block",
+    "category": "Other"
+  },
+  {
+    "text": "Organic Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Grass-Fed Strong Bread Flour",
+    "category": "Pantry"
+  },
+  {
+    "text": "Wild Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Wild Duck Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Grass-Fed Yellow Onion",
+    "category": "Produce"
+  },
+  {
+    "text": "Artisan Pickles",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Lemon Zest",
+    "category": "Produce"
+  },
+  {
+    "text": "Arborio Rice",
+    "category": "Pantry"
+  },
+  {
+    "text": "Cold-Pressed Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Cold-Pressed Yellow Onion",
+    "category": "Produce"
+  },
+  {
+    "text": "Extra-Virgin Turkey Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Heirloom Whole Milk",
+    "category": "Dairy"
+  },
+  {
+    "text": "Artisan Zucchini",
+    "category": "Produce"
+  },
+  {
+    "text": "Free-Range Cheddar Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Artisan English Muffins",
+    "category": "Bakery"
+  },
+  {
+    "text": "Heirloom Mushrooms",
+    "category": "Produce"
+  },
+  {
+    "text": "Extra-Virgin Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Greek Yogurt",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild Italian Sausage",
+    "category": "Meat"
+  },
+  {
+    "text": "Grass-Fed Kale Leaves",
+    "category": "Produce"
+  },
+  {
+    "text": "Premium Feta Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Grass-Fed Fresh Mint",
+    "category": "Produce"
+  },
+  {
+    "text": "Extra-Virgin Croissants",
+    "category": "Bakery"
+  },
+  {
+    "text": "Wild Active Sourdough Starter",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted English Muffins",
+    "category": "Bakery"
+  },
+  {
+    "text": "Free-Range Bacon Strips",
+    "category": "Meat"
+  },
+  {
+    "text": "Heirloom Shrimp",
+    "category": "Meat"
+  },
+  {
+    "text": "Cold-Pressed Feta Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Premium Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Kale Leaves",
+    "category": "Produce"
+  },
+  {
+    "text": "Pickles",
+    "category": "Other"
+  },
+  {
+    "text": "Grass-Fed Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Premium Prosciutto",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Chicken Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Fresh Brioche Buns",
+    "category": "Bakery"
+  },
+  {
+    "text": "Unsalted Duck Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Extra-Virgin Fresh Rosemary Sprigs",
+    "category": "Produce"
+  },
+  {
+    "text": "Organic Pickles",
+    "category": "Other"
+  },
+  {
+    "text": "Premium Mascarpone",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Grass-Fed Pork Tenderloin",
+    "category": "Meat"
+  },
+  {
+    "text": "Fresh Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Pita Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Cold-Pressed Paprika",
+    "category": "Pantry"
+  },
+  {
+    "text": "Grass-Fed Buttermilk",
+    "category": "Dairy"
+  },
+  {
+    "text": "Unsalted Filtered Water",
+    "category": "Pantry"
+  },
+  {
+    "text": "Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild Cold Pressed Olive Oil",
+    "category": "Pantry"
+  },
+  {
+    "text": "Organic Bay Leaves",
+    "category": "Pantry"
+  },
+  {
+    "text": "Heirloom Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Fresh Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Grass-Fed Baking Powder",
+    "category": "Pantry"
+  },
+  {
+    "text": "Wild Italian Sausage",
+    "category": "Meat"
+  },
+  {
+    "text": "Premium Croissants",
+    "category": "Bakery"
+  },
+  {
+    "text": "Heirloom Active Sourdough Starter",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Ricotta",
+    "category": "Dairy"
+  },
+  {
+    "text": "Heirloom Garlic Cloves",
+    "category": "Produce"
+  },
+  {
+    "text": "Cold-Pressed Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Heirloom Pasta Noodles",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Parmesan Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Unsalted Cumin",
+    "category": "Pantry"
+  },
+  {
+    "text": "Free-Range Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Bacon Strips",
+    "category": "Meat"
+  },
+  {
+    "text": "Lamb Chops",
+    "category": "Meat"
+  },
+  {
+    "text": "Cold-Pressed English Muffins",
+    "category": "Bakery"
+  },
+  {
+    "text": "Unsalted Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Fresh Italian Sausage",
+    "category": "Meat"
+  },
+  {
+    "text": "Ground Beef",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Unsalted Organic Heirloom Tomatoes",
+    "category": "Produce"
+  },
+  {
+    "text": "Organic Duck Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Ricotta",
+    "category": "Dairy"
+  },
+  {
+    "text": "Extra-Virgin Balsamic Vinegar",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Paprika",
+    "category": "Pantry"
+  },
+  {
+    "text": "Heirloom Buttermilk",
+    "category": "Dairy"
+  },
+  {
+    "text": "Cold-Pressed Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Organic Baby Spinach",
+    "category": "Produce"
+  },
+  {
+    "text": "Wild Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Free-Range Ginger Root",
+    "category": "Produce"
+  },
+  {
+    "text": "Extra-Virgin Prime Ribeye Steaks",
+    "category": "Meat"
+  },
+  {
+    "text": "Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Free-Range Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Extra-Virgin Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Cold-Pressed Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Cold-Pressed Paprika",
+    "category": "Pantry"
+  },
+  {
+    "text": "Cold-Pressed Ground Beef",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Chicken Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Cream Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Heirloom Turkey Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Wild Wine",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Lamb Chops",
+    "category": "Meat"
+  },
+  {
+    "text": "Grass-Fed Organic Heirloom Tomatoes",
+    "category": "Produce"
+  },
+  {
+    "text": "Free-Range Tofu Block",
+    "category": "Other"
+  },
+  {
+    "text": "Extra-Virgin Scallions",
+    "category": "Produce"
+  },
+  {
+    "text": "Fresh Active Sourdough Starter",
+    "category": "Other"
+  },
+  {
+    "text": "Free-Range Sour Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Canola Oil",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Fresh Thyme",
+    "category": "Produce"
+  },
+  {
+    "text": "Premium Zucchini",
+    "category": "Produce"
+  },
+  {
+    "text": "Premium Shrimp",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Parmesan Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Heirloom Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Cold-Pressed Lamb Chops",
+    "category": "Meat"
+  },
+  {
+    "text": "Premium Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Unsalted Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Premium Shallots",
+    "category": "Produce"
+  },
+  {
+    "text": "Sour Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild Miso Paste",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Cold-Pressed All-Purpose Flour",
+    "category": "Pantry"
+  },
+  {
+    "text": "Organic Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Heirloom Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Ricotta",
+    "category": "Dairy"
+  },
+  {
+    "text": "Cold-Pressed Pita Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Premium Sea Salt",
+    "category": "Pantry"
+  },
+  {
+    "text": "Unsalted Italian Sausage",
+    "category": "Meat"
+  },
+  {
+    "text": "Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Grass-Fed Fresh Rosemary Sprigs",
+    "category": "Produce"
+  },
+  {
+    "text": "Free-Range Mascarpone",
+    "category": "Dairy"
+  },
+  {
+    "text": "Premium Cherry Tomatoes",
+    "category": "Produce"
+  },
+  {
+    "text": "Unsalted Lamb Chops",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Kale Leaves",
+    "category": "Produce"
+  },
+  {
+    "text": "Heirloom Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Fresh Miso Paste",
+    "category": "Other"
+  },
+  {
+    "text": "Wild Brioche Buns",
+    "category": "Bakery"
+  },
+  {
+    "text": "Premium Maple Syrup",
+    "category": "Pantry"
+  },
+  {
+    "text": "Organic Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Cold-Pressed Yellow Onion",
+    "category": "Produce"
+  },
+  {
+    "text": "Heirloom Paprika",
+    "category": "Pantry"
+  },
+  {
+    "text": "Organic Fresh Mint",
+    "category": "Produce"
+  },
+  {
+    "text": "Filtered Water",
+    "category": "Pantry"
+  },
+  {
+    "text": "Organic Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Cold-Pressed Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Grass-Fed Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Unsalted Feta Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild Italian Sausage",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Coconut Milk",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Cold Pressed Olive Oil",
+    "category": "Pantry"
+  },
+  {
+    "text": "Fresh Honey",
+    "category": "Pantry"
+  },
+  {
+    "text": "Artisan Chicken Stock",
+    "category": "Pantry"
+  },
+  {
+    "text": "Extra-Virgin Celery Stalk",
+    "category": "Produce"
+  },
+  {
+    "text": "Heirloom Feta Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Free-Range Cheddar Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Heirloom Shrimp",
+    "category": "Meat"
+  },
+  {
+    "text": "Premium Feta Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Fresh Sugar",
+    "category": "Pantry"
+  },
+  {
+    "text": "Organic Chicken Stock",
+    "category": "Pantry"
+  },
+  {
+    "text": "Fresh Cilantro",
+    "category": "Produce"
+  },
+  {
+    "text": "Premium Salmon Fillet",
+    "category": "Meat"
+  },
+  {
+    "text": "Heirloom Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Cold-Pressed Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Fresh Mint",
+    "category": "Produce"
+  },
+  {
+    "text": "Organic Coconut Milk",
+    "category": "Pantry"
+  },
+  {
+    "text": "Grass-Fed Wine",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted Italian Sausage",
+    "category": "Meat"
+  },
+  {
+    "text": "Cold-Pressed Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Prosciutto",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Brioche Buns",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Cold-Pressed Mozzarella",
+    "category": "Dairy"
+  },
+  {
+    "text": "Heirloom Vanilla Extract",
+    "category": "Pantry"
+  },
+  {
+    "text": "Wild Zucchini",
+    "category": "Produce"
+  },
+  {
+    "text": "Free-Range Feta Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Artisan Cheddar Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Extra-Virgin Arborio Rice",
+    "category": "Pantry"
+  },
+  {
+    "text": "Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Grass-Fed Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Free-Range Parmesan Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Unsalted Ground Beef",
+    "category": "Meat"
+  },
+  {
+    "text": "Organic Cold Pressed Olive Oil",
+    "category": "Pantry"
+  },
+  {
+    "text": "Heirloom Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Greek Yogurt",
+    "category": "Dairy"
+  },
+  {
+    "text": "Artisan Heavy Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Unsalted Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Free-Range Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Grass-Fed Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Wild Baking Powder",
+    "category": "Pantry"
+  },
+  {
+    "text": "Heirloom Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Wild Fresh Thyme",
+    "category": "Produce"
+  },
+  {
+    "text": "Organic English Muffins",
+    "category": "Bakery"
+  },
+  {
+    "text": "Wild Filtered Water",
+    "category": "Pantry"
+  },
+  {
+    "text": "Artisan English Muffins",
+    "category": "Bakery"
+  },
+  {
+    "text": "Free-Range Baby Spinach",
+    "category": "Produce"
+  },
+  {
+    "text": "Artisan Sour Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Premium Paprika",
+    "category": "Pantry"
+  },
+  {
+    "text": "Free-Range Baby Spinach",
+    "category": "Produce"
+  },
+  {
+    "text": "Extra-Virgin Cream Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Fresh Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Free-Range Canola Oil",
+    "category": "Pantry"
+  },
+  {
+    "text": "Unsalted Mozzarella",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Tofu Block",
+    "category": "Other"
+  },
+  {
+    "text": "Extra-Virgin Feta Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Fresh Sweet Basil",
+    "category": "Produce"
+  },
+  {
+    "text": "Heirloom Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Scallions",
+    "category": "Produce"
+  },
+  {
+    "text": "Artisan Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Ground Beef",
+    "category": "Meat"
+  },
+  {
+    "text": "Fresh Rolled Oats",
+    "category": "Pantry"
+  },
+  {
+    "text": "Unsalted Pita Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Free-Range Mozzarella",
+    "category": "Dairy"
+  },
+  {
+    "text": "Heirloom Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Grass-Fed Sour Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Cold-Pressed Ricotta",
+    "category": "Dairy"
+  },
+  {
+    "text": "Cold-Pressed Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Unsalted Chicken Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Sour Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Turkey Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Grass-Fed Pasta Noodles",
+    "category": "Pantry"
+  },
+  {
+    "text": "Fresh Greek Yogurt",
+    "category": "Dairy"
+  },
+  {
+    "text": "Whole Milk",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild Lamb Chops",
+    "category": "Meat"
+  },
+  {
+    "text": "Artisan Carrots",
+    "category": "Produce"
+  },
+  {
+    "text": "Cold-Pressed Fresh Cilantro",
+    "category": "Produce"
+  },
+  {
+    "text": "Premium Brioche Buns",
+    "category": "Bakery"
+  },
+  {
+    "text": "Grass-Fed Shrimp",
+    "category": "Meat"
+  },
+  {
+    "text": "Organic Prime Ribeye Steaks",
+    "category": "Meat"
+  },
+  {
+    "text": "Extra-Virgin Fresh Cilantro",
+    "category": "Produce"
+  },
+  {
+    "text": "Free-Range Sourdough Loaf",
+    "category": "Bakery"
+  },
+  {
+    "text": "Fresh Parsley",
+    "category": "Produce"
+  },
+  {
+    "text": "Wild Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted Cornstarch",
+    "category": "Pantry"
+  },
+  {
+    "text": "Unsalted Fresh Thyme",
+    "category": "Produce"
+  },
+  {
+    "text": "Fresh Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Premium Maple Syrup",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted Chicken Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Fresh Parmesan Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Shrimp",
+    "category": "Meat"
+  },
+  {
+    "text": "Lamb Chops",
+    "category": "Meat"
+  },
+  {
+    "text": "Organic Honey",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Tofu Block",
+    "category": "Other"
+  },
+  {
+    "text": "Free-Range Salmon Fillet",
+    "category": "Meat"
+  },
+  {
+    "text": "Premium Ginger Root",
+    "category": "Produce"
+  },
+  {
+    "text": "Artisan Shrimp",
+    "category": "Meat"
+  },
+  {
+    "text": "Organic Pickles",
+    "category": "Other"
+  },
+  {
+    "text": "Wild Bacon Strips",
+    "category": "Meat"
+  },
+  {
+    "text": "Organic Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Salmon Fillet",
+    "category": "Meat"
+  },
+  {
+    "text": "Wild Cornstarch",
+    "category": "Pantry"
+  },
+  {
+    "text": "Grass-Fed Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Coconut Milk",
+    "category": "Pantry"
+  },
+  {
+    "text": "Cold-Pressed Tofu Block",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Premium Bacon Strips",
+    "category": "Meat"
+  },
+  {
+    "text": "Cold-Pressed Canola Oil",
+    "category": "Pantry"
+  },
+  {
+    "text": "Wild Yellow Onion",
+    "category": "Produce"
+  },
+  {
+    "text": "Extra-Virgin Mascarpone",
+    "category": "Dairy"
+  },
+  {
+    "text": "Extra-Virgin Bay Leaves",
+    "category": "Pantry"
+  },
+  {
+    "text": "Organic Tofu Block",
+    "category": "Other"
+  },
+  {
+    "text": "Cold-Pressed Prosciutto",
+    "category": "Meat"
+  },
+  {
+    "text": "Premium Filtered Water",
+    "category": "Pantry"
+  },
+  {
+    "text": "Wild Fresh Sweet Basil",
+    "category": "Produce"
+  },
+  {
+    "text": "Wild Duck Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Grass-Fed Zucchini",
+    "category": "Produce"
+  },
+  {
+    "text": "Free-Range Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Pita Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Wine",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Pita Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Free-Range Miso Paste",
+    "category": "Other"
+  },
+  {
+    "text": "Cold-Pressed Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Organic Pickles",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Pasta Noodles",
+    "category": "Pantry"
+  },
+  {
+    "text": "Extra-Virgin Lemon Zest",
+    "category": "Produce"
+  },
+  {
+    "text": "Wild Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Premium Avocado",
+    "category": "Produce"
+  },
+  {
+    "text": "Heirloom Pickles",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted All-Purpose Flour",
+    "category": "Pantry"
+  },
+  {
+    "text": "Heirloom Parmesan Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Premium Prosciutto",
+    "category": "Meat"
+  },
+  {
+    "text": "Artisan Maple Syrup",
+    "category": "Pantry"
+  },
+  {
+    "text": "Free-Range Mascarpone",
+    "category": "Dairy"
+  },
+  {
+    "text": "Organic Filtered Water",
+    "category": "Pantry"
+  },
+  {
+    "text": "Unsalted Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Honey",
+    "category": "Pantry"
+  },
+  {
+    "text": "Free-Range Pita Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Wild Carrots",
+    "category": "Produce"
+  },
+  {
+    "text": "Cold-Pressed Bacon Strips",
+    "category": "Meat"
+  },
+  {
+    "text": "Wild All-Purpose Flour",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Garlic Cloves",
+    "category": "Produce"
+  },
+  {
+    "text": "Grass-Fed Arborio Rice",
+    "category": "Pantry"
+  },
+  {
+    "text": "Grass-Fed Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Free-Range Salmon Fillet",
+    "category": "Meat"
+  },
+  {
+    "text": "Extra-Virgin Shrimp",
+    "category": "Meat"
+  },
+  {
+    "text": "Heirloom Maple Syrup",
+    "category": "Pantry"
+  },
+  {
+    "text": "Premium Garlic Cloves",
+    "category": "Produce"
+  },
+  {
+    "text": "Unsalted Paprika",
+    "category": "Pantry"
+  },
+  {
+    "text": "Wild Salmon Fillet",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Cheddar Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Unsalted Duck Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Sour Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Wild Miso Paste",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Greek Yogurt",
+    "category": "Dairy"
+  },
+  {
+    "text": "Cold-Pressed Strong Bread Flour",
+    "category": "Pantry"
+  },
+  {
+    "text": "Free-Range Mushrooms",
+    "category": "Produce"
+  },
+  {
+    "text": "Organic Fresh Parsley",
+    "category": "Produce"
+  },
+  {
+    "text": "Premium Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Grass-Fed Duck Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Free-Range Heavy Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Artisan Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Strong Bread Flour",
+    "category": "Pantry"
+  },
+  {
+    "text": "Heirloom Feta Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Fresh Cheddar Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Unsalted Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Grass-Fed Vanilla Extract",
+    "category": "Pantry"
+  },
+  {
+    "text": "Grass-Fed Vanilla Extract",
+    "category": "Pantry"
+  },
+  {
+    "text": "Unsalted Wine",
+    "category": "Other"
+  },
+  {
+    "text": "Artisan Arborio Rice",
+    "category": "Pantry"
+  },
+  {
+    "text": "Free-Range Mushrooms",
+    "category": "Produce"
+  },
+  {
+    "text": "Premium Garlic Cloves",
+    "category": "Produce"
+  },
+  {
+    "text": "Prime Ribeye Steaks",
+    "category": "Meat"
+  },
+  {
+    "text": "Cold-Pressed Cornstarch",
+    "category": "Pantry"
+  },
+  {
+    "text": "Extra-Virgin Yellow Onion",
+    "category": "Produce"
+  },
+  {
+    "text": "Grass-Fed Cheddar Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Fresh Croissants",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Goat Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Kale Leaves",
+    "category": "Produce"
+  },
+  {
+    "text": "Heirloom Tofu Block",
+    "category": "Other"
+  },
+  {
+    "text": "Grass-Fed Mozzarella",
+    "category": "Dairy"
+  },
+  {
+    "text": "Extra-Virgin Miso Paste",
+    "category": "Other"
+  },
+  {
+    "text": "Organic Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Free-Range Croissants",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Tortilla Wraps",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Pork Tenderloin",
+    "category": "Meat"
+  },
+  {
+    "text": "Fresh Bacon Strips",
+    "category": "Meat"
+  },
+  {
+    "text": "Cold-Pressed Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Organic Lamb Chops",
+    "category": "Meat"
+  },
+  {
+    "text": "Premium Lamb Chops",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Cream Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Organic Avocado",
+    "category": "Produce"
+  },
+  {
+    "text": "Heirloom Carrots",
+    "category": "Produce"
+  },
+  {
+    "text": "Organic Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Honey",
+    "category": "Pantry"
+  },
+  {
+    "text": "Organic Capers",
+    "category": "Other"
+  },
+  {
+    "text": "Heirloom Organic Heirloom Tomatoes",
+    "category": "Produce"
+  },
+  {
+    "text": "Cold-Pressed Active Sourdough Starter",
+    "category": "Other"
+  },
+  {
+    "text": "Heirloom Baguette",
+    "category": "Bakery"
+  },
+  {
+    "text": "Premium Lamb Chops",
+    "category": "Meat"
+  },
+  {
+    "text": "Artisan Canned Tomatoes",
+    "category": "Pantry"
+  },
+  {
+    "text": "Artisan Mozzarella",
+    "category": "Dairy"
+  },
+  {
+    "text": "Premium Nutritional Yeast",
+    "category": "Other"
+  },
+  {
+    "text": "Free-Range Turkey Breast",
+    "category": "Meat"
+  },
+  {
+    "text": "Unsalted Ground Beef",
+    "category": "Meat"
+  },
+  {
+    "text": "Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Cold-Pressed Miso Paste",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted Active Sourdough Starter",
+    "category": "Other"
+  },
+  {
+    "text": "Premium Pasta Noodles",
+    "category": "Pantry"
+  },
+  {
+    "text": "Organic Fresh Sweet Basil",
+    "category": "Produce"
+  },
+  {
+    "text": "Premium Shrimp",
+    "category": "Meat"
+  },
+  {
+    "text": "Cold-Pressed Maple Syrup",
+    "category": "Pantry"
+  },
+  {
+    "text": "Extra-Virgin Paprika",
+    "category": "Pantry"
+  },
+  {
+    "text": "Organic Lime Juice",
+    "category": "Produce"
+  },
+  {
+    "text": "Organic Cheddar Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Beer",
+    "category": "Other"
+  },
+  {
+    "text": "Unsalted Mascarpone",
+    "category": "Dairy"
+  },
+  {
+    "text": "Artisan Parmesan Cheese",
+    "category": "Dairy"
+  },
+  {
+    "text": "Unsalted Vanilla Extract",
+    "category": "Pantry"
+  },
+  {
+    "text": "Extra-Virgin Garlic Cloves",
+    "category": "Produce"
+  },
+  {
+    "text": "Unsalted Heavy Cream",
+    "category": "Dairy"
+  },
+  {
+    "text": "Grass-Fed Olives",
+    "category": "Other"
+  },
+  {
+    "text": "Heirloom Naan Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Artisan Pita Bread",
+    "category": "Bakery"
+  },
+  {
+    "text": "Extra-Virgin Prosciutto",
+    "category": "Meat"
+  }
+]

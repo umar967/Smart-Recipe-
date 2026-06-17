@@ -1,6 +1,6 @@
 {
   "name": "Smart Recipe Deconstructor",
-  "description": "An AI-powered recipe deconstructor that breaks down complex recipe content into step-by-step instructions, adjusted yields, and neat, categorized shopping lists.",
+  "description": "An offline AI-powered recipe deconstructor that breaks down complex recipe content into step-by-step instructions, adjusted yields, and neat, categorized shopping lists — fully on-device with no internet required.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": ["MAJOR_CAPABILITY_OFFLINE_EDGE_AI"]
 }

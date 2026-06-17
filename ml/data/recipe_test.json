@@ -1,0 +1,118 @@
+[
+  {
+    "id": "test-sourdough",
+    "recipeText": "Artisanal Sourdough Bread Recipe\nYield: 1x Batch\n\nIngredients:\n- 500g Strong Bread Flour (Pantry)\n- 350g Filtered Water (Pantry)\n- 100g Active Sourdough Starter (Other)\n- 10g Sea Salt (Pantry)\n\nCooking Steps:\n1. Autolyse: Mix the flour and water together in a large bowl until no dry flour remains. Cover and let it rest for 30 minutes. TIMER: 1800s.\n2. Incorporate Starter: Gently dimple the active starter into the dough using wet hands. Fold the dough over itself for 15 minutes until fully integrated. TIMER: 900s.\n3. Adding Salt: Sprinkle the sea salt over the dough. Fold and squeeze the dough to thoroughly distribute the salt throughout. Knead gently for 5 minutes. TIMER: 300s.",
+    "expected": {
+      "recipeName": "Artisanal Sourdough Bread",
+      "yieldText": "1x Batch",
+      "ingredientCount": 4,
+      "stepCount": 3,
+      "ingredients": [
+        {"nameContains": "Bread Flour", "category": "Pantry", "numericValue": 500, "unit": "g"},
+        {"nameContains": "Water", "category": "Pantry", "numericValue": 350, "unit": "g"},
+        {"nameContains": "Starter", "category": "Other", "numericValue": 100, "unit": "g"},
+        {"nameContains": "Salt", "category": "Pantry", "numericValue": 10, "unit": "g"}
+      ],
+      "steps": [
+        {"titleContains": "Autolyse", "timerDuration": 1800},
+        {"titleContains": "Starter", "timerDuration": 900},
+        {"titleContains": "Salt", "timerDuration": 300}
+      ]
+    }
+  },
+  {
+    "id": "test-pasta",
+    "recipeText": "Creamy Tuscan Garlic Pasta\nYield: 4 Servings\n\nIngredients:\n- 350g Specialty Pasta Noodles (Pantry)\n- 3 large Organic Heirloom Tomatoes (Produce)\n- 1 bunch Fresh Sweet Basil (Produce)\n- 6 Cloves of Garlic (Produce)\n- 250g Baby Spinach (Produce)\n- 30ml Cold Pressed Olive Oil (Pantry)\n- 250g Unsalted Grass-fed Butter (Dairy)\n- 1.5 cups Heavy Cream (Dairy)\n\nCooking Steps:\n1. Prep Vegetables: Halve the cherry tomatoes and mince the garlic. TIMER: 300s.\n2. Cook Pasta: Boil pasta for 9 minutes until al dente. TIMER: 540s.\n3. Cook Aromatics: Sauté garlic in olive oil for 2 minutes. TIMER: 120s.",
+    "expected": {
+      "recipeName": "Tuscan Garlic Pasta",
+      "yieldText": "4 Servings",
+      "ingredientCount": 8,
+      "stepCount": 3,
+      "ingredients": [
+        {"nameContains": "Pasta", "category": "Pantry"},
+        {"nameContains": "Tomato", "category": "Produce"},
+        {"nameContains": "Basil", "category": "Produce"},
+        {"nameContains": "Garlic", "category": "Produce"},
+        {"nameContains": "Spinach", "category": "Produce"},
+        {"nameContains": "Olive Oil", "category": "Pantry"},
+        {"nameContains": "Butter", "category": "Dairy"},
+        {"nameContains": "Cream", "category": "Dairy"}
+      ],
+      "steps": [
+        {"titleContains": "Prep", "timerDuration": 300},
+        {"titleContains": "Pasta", "timerDuration": 540},
+        {"titleContains": "Aromatics", "timerDuration": 120}
+      ]
+    }
+  },
+  {
+    "id": "test-steak",
+    "recipeText": "Cast Iron Basted Ribeye Steak\nYield: 2 Servings\n\nIngredients:\n- 2 prime Ribeye Steaks (Meat)\n- 4 sprigs Fresh Rosemary (Produce)\n- 5 cloves Garlic (Produce)\n- 50g Unsalted Grass-fed Butter (Dairy)\n- 30ml Canola Oil (Pantry)\n- 10g Fresh Ground Sea Salt (Pantry)\n\nCooking Steps:\n1. Dry & Season: Pat steaks dry and season with salt. Let sit for 15 minutes. TIMER: 900s.\n2. Heat Pan: Preheat cast iron skillet for 2 minutes. TIMER: 120s.\n3. Sear Steak: Sear 2 minutes per side. TIMER: 240s.",
+    "expected": {
+      "recipeName": "Ribeye Steak",
+      "yieldText": "2 Servings",
+      "ingredientCount": 6,
+      "stepCount": 3,
+      "ingredients": [
+        {"nameContains": "Ribeye", "category": "Meat"},
+        {"nameContains": "Rosemary", "category": "Produce"},
+        {"nameContains": "Garlic", "category": "Produce"},
+        {"nameContains": "Butter", "category": "Dairy"},
+        {"nameContains": "Oil", "category": "Pantry"},
+        {"nameContains": "Salt", "category": "Pantry"}
+      ],
+      "steps": [
+        {"titleContains": "Season", "timerDuration": 900},
+        {"titleContains": "Heat", "timerDuration": 120},
+        {"titleContains": "Sear", "timerDuration": 240}
+      ]
+    }
+  },
+  {
+    "id": "test-cookies",
+    "recipeText": "Classic Chocolate Chip Cookies\nYield: 24 Cookies\n\nIngredients:\n- 225g Unsalted Butter (Dairy)\n- 200g Brown Sugar (Pantry)\n- 2 large Eggs (Dairy)\n- 280g All-Purpose Flour (Pantry)\n- 200g Chocolate Chips (Pantry)\n- 5g Baking Soda (Pantry)\n\nCooking Steps:\n1. Cream Butter: Beat butter and sugar for 3 minutes until fluffy.\n2. Mix Dry: Whisk flour and baking soda together.\n3. Bake: Bake at 175C for 12 minutes. TIMER: 720s.",
+    "expected": {
+      "recipeName": "Chocolate Chip Cookies",
+      "yieldText": "24 Cookies",
+      "ingredientCount": 6,
+      "stepCount": 3,
+      "ingredients": [
+        {"nameContains": "Butter", "category": "Dairy"},
+        {"nameContains": "Sugar", "category": "Pantry"},
+        {"nameContains": "Egg", "category": "Dairy"},
+        {"nameContains": "Flour", "category": "Pantry"},
+        {"nameContains": "Chocolate", "category": "Pantry"},
+        {"nameContains": "Baking", "category": "Pantry"}
+      ],
+      "steps": [
+        {"titleContains": "Cream", "timerDuration": 0},
+        {"titleContains": "Mix", "timerDuration": 0},
+        {"titleContains": "Bake", "timerDuration": 720}
+      ]
+    }
+  },
+  {
+    "id": "test-salad",
+    "recipeText": "Mediterranean Quinoa Salad\nServes 6\n\nIngredients:\n1 cup quinoa\n2 cucumbers diced\n1 red onion finely chopped\n200g feta cheese crumbled\n50ml extra virgin olive oil\njuice of 2 lemons\nfresh parsley chopped\n\nInstructions:\nStep 1 - Cook quinoa: Rinse quinoa and simmer in water for 15 minutes. Let cool 10 minutes.\nStep 2 - Chop vegetables: Dice cucumbers and onion.\nStep 3 - Dress salad: Toss with olive oil, lemon juice, and feta.",
+    "expected": {
+      "recipeName": "Mediterranean Quinoa Salad",
+      "yieldText": "6",
+      "ingredientCount": 7,
+      "stepCount": 3,
+      "ingredients": [
+        {"nameContains": "quinoa", "category": "Pantry"},
+        {"nameContains": "cucumber", "category": "Produce"},
+        {"nameContains": "onion", "category": "Produce"},
+        {"nameContains": "feta", "category": "Dairy"},
+        {"nameContains": "olive oil", "category": "Pantry"},
+        {"nameContains": "lemon", "category": "Produce"},
+        {"nameContains": "parsley", "category": "Produce"}
+      ],
+      "steps": [
+        {"titleContains": "quinoa", "timerDuration": 900},
+        {"titleContains": "vegetable", "timerDuration": 0},
+        {"titleContains": "Dress", "timerDuration": 0}
+      ]
+    }
+  }
+]
