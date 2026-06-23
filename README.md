@@ -1,6 +1,6 @@
 <div align="center">
 
-# Smart Recipe Deconstructor
+# Smart Recipe Constructor
 
 Offline edge AI — privacy-first recipe parsing with no API calls.
 
@@ -39,7 +39,7 @@ npm run dev
 
 Open in your browser: **http://localhost:3000**
 
-No API keys required. Recipe deconstruction runs fully on-device.
+No API keys required. Recipe construction runs fully on-device.
 
 ## Assignment deliverables
 

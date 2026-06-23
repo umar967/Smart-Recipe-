@@ -3,13 +3,14 @@ import { Sparkles, Clipboard, ChefHat, HelpCircle } from "lucide-react";
 import { PRESETS } from "../presets";
 
 interface InputScreenProps {
-  onDeconstruct: (text: string, presetName?: string) => void;
+  onDeconstruct: (text: string, recipeName?: string) => void;
   loading: boolean;
   error: string | null;
 }
 
 export default function InputScreen({ onDeconstruct, loading, error }: InputScreenProps) {
   const [recipeText, setRecipeText] = useState("");
+  const [recipeName, setRecipeName] = useState("");
 
   const handlePresetSelect = (rawText: string) => {
     setRecipeText(rawText);
@@ -33,7 +34,7 @@ export default function InputScreen({ onDeconstruct, loading, error }: InputScre
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!recipeText.trim()) return;
-    onDeconstruct(recipeText);
+    onDeconstruct(recipeText, recipeName.trim() || undefined);
   };
 
   return (
@@ -49,6 +50,20 @@ export default function InputScreen({ onDeconstruct, loading, error }: InputScre
       {/* Input Form Area Container */}
       <div className="bg-surface-container-lowest rounded-3xl p-6 custom-shadow flex flex-col gap-6" id="input-card-container">
         <form onSubmit={handleSubmit} className="relative flex flex-col gap-6">
+          <div className="relative">
+            <h3 className="block font-semibold text-sm text-primary uppercase tracking-wider mb-3">
+              Recipe Name
+            </h3>
+            <input
+              type="text"
+              className="w-full bg-surface-container-low border border-outline-variant/30 rounded-2xl p-4 font-normal text-base text-on-surface placeholder-outline/65 focus:ring-2 focus:ring-primary-container focus:outline-none transition-all"
+              id="recipe-name-input"
+              placeholder="Give your recipe a name (optional)"
+              value={recipeName}
+              onChange={(e) => setRecipeName(e.target.value)}
+              disabled={loading}
+            />
+          </div>
           <div className="relative">
             <h3 className="block font-semibold text-sm text-primary uppercase tracking-wider mb-3">
               Recipe Content
@@ -79,7 +94,7 @@ export default function InputScreen({ onDeconstruct, loading, error }: InputScre
             <div className="p-4 bg-error-container text-on-error-container rounded-xl text-sm flex items-start gap-2 border border-error/10" id="error-box">
               <HelpCircle className="w-5 h-5 shrink-0 mt-0.5 text-error" />
               <div>
-                <p className="font-semibold">Deconstruction Error</p>
+                <p className="font-semibold">Construction Error</p>
                 <p className="opacity-90">{error}</p>
               </div>
             </div>
@@ -89,7 +104,7 @@ export default function InputScreen({ onDeconstruct, loading, error }: InputScre
             <div className="flex items-center gap-3 px-4 py-3 bg-secondary-container/20 rounded-xl">
               <Sparkles className="w-5 h-5 text-secondary shrink-0 animate-pulse" />
               <span className="text-sm font-semibold text-on-secondary-container">
-                AI-powered deconstruction enabled
+                AI-powered construction enabled
               </span>
             </div>
 
@@ -106,7 +121,7 @@ export default function InputScreen({ onDeconstruct, loading, error }: InputScre
               id="deconstruct-recipe-btn"
             >
               <ChefHat className={`w-6 h-6 ${loading ? "animate-spin" : ""}`} />
-              {loading ? "Deconstructing Recipe..." : "Deconstruct Recipe"}
+              {loading ? "Constructing Recipe..." : "Construct Recipe"}
             </button>
           </div>
         </form>

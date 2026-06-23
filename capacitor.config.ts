@@ -1,8 +1,8 @@
 import type { CapacitorConfig } from "@capacitor/cli";
 
 const config: CapacitorConfig = {
-  appId: "com.smartrecipe.deconstructor",
-  appName: "Smart Recipe Deconstructor",
+  appId: "com.smartrecipe.constructor",
+  appName: "Smart Recipe Constructor",
   webDir: "dist",
   android: {
     allowMixedContent: false,

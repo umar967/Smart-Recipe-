@@ -79,7 +79,7 @@ export default function App() {
   };
 
   // Process manual or pre-filled unstructured recipe
-  const handleDeconstruct = async (recipeText: string) => {
+  const handleDeconstruct = async (recipeText: string, customName?: string) => {
     setLoading(true);
     setError(null);
     try {
@@ -88,6 +88,7 @@ export default function App() {
       const generatedRecipe: Recipe = {
         ...data,
         id: `recipe-${Date.now()}`,
+        recipeName: customName || data.recipeName,
         createdAt: new Date().toISOString()
       };
 
@@ -195,7 +196,7 @@ export default function App() {
           <div className="flex items-center gap-2">
             <ChefHat className="w-6 h-6 text-primary shrink-0 animate-bounce" />
             <h1 className="text-lg md:text-xl font-bold text-primary tracking-tight">
-              Smart Recipe Deconstructor
+              Smart Recipe Constructor
             </h1>
           </div>
         </div>
@@ -250,7 +251,7 @@ export default function App() {
                   </h3>
                   {recipeHistory.length === 0 ? (
                     <p className="text-xs text-on-surface-variant opacity-75 italic px-2">
-                      No deconstructed plans in library yet.
+                      No constructed plans in library yet.
                     </p>
                   ) : (
                     <div className="flex flex-col gap-1">

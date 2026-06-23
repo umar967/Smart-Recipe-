@@ -134,8 +134,12 @@ export default function DashboardScreen({ recipe, onAddToShoppingList }: Dashboa
   const totalStepsWithTimers = recipe.steps.length;
 
   const handleSendToShoppingList = () => {
-    // scale ingredients before dispatching
-    const scaledIngredients = recipe.ingredients.map((ing) => ({
+    // Only send ingredients not yet prep-checked (unchecked = need to buy)
+    const uncheckedIngredients = recipe.ingredients.filter((ing, idx) => {
+      const idKey = `${idx}-${ing.name}`;
+      return !checkedIngredients[idKey];
+    });
+    const scaledIngredients = uncheckedIngredients.map((ing) => ({
       ...ing,
       amountText: getScaledAmount(ing),
     }));

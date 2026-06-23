@@ -1,10 +1,10 @@
 apply plugin: 'com.android.application'
 
 android {
-    namespace "com.smartrecipe.deconstructor"
+    namespace "com.smartrecipe.constructor"
     compileSdk rootProject.ext.compileSdkVersion
     defaultConfig {
-        applicationId "com.smartrecipe.deconstructor"
+        applicationId "com.smartrecipe.constructor"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
