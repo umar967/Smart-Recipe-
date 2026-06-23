@@ -30,7 +30,7 @@ Cooking Steps:
       id: "artisanal-sourdough",
       recipeName: "Artisanal Sourdough",
       yieldText: "1x Batch",
-      imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuAMH0AoMeNhqkc5P6saAPQrgkeFGj0vjiL4zrt_OfzBgUPIgdZ2zCQ8xUAAZcoYx-b55Y085_as691DFHmHDC4aQuOCPL4KBIXa6-GsCLfP7ynptkNkCy6SGBZ4w1rbbFlHbplfwndQKx_tivmwbF5jW8Tjdg-YmuUOuiGXDvDkCE1EOcLQ975KPV6xE_POLaS2pfuVQtbQNGqtrzGDlmCibhATM7da6-yj0EDCy1yvhkxfVgPfjfkRN70RejoD_IoNCaRpkEN2SX4",
+      imageUrl: undefined,
       ingredients: [
         { name: "Strong Bread Flour", amountText: "500g", numericValue: 500, unit: "g", category: "Pantry" },
         { name: "Filtered Water", amountText: "350g", numericValue: 350, unit: "g", category: "Pantry" },
@@ -72,7 +72,7 @@ Cooking Steps:
       id: "tuscan-pasta",
       recipeName: "Tuscan Garlic Pasta",
       yieldText: "4 Servings",
-      imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuD4_VpBBj8QJuywWk2NU2VEmMzzKQ7n1wKIxkjiI1FhCh1B9AM8QxcBGl36nWs-jWKtjiQdCGQQ_hOZWSbyDZmErEV-aFzpdYKHVxM6go0VyNnyGRZ3Am-MLlDWwEzI3Mj4G_5_r7sLdBm5DVrHh2tZNv3hunaixazhxYIVeqH1-ZqFZnXIlAPSBVh5pONmw6LlHWCI70ESdvmXPUJJk1JnfEt7I1OM34QYNA63DSFTRyr_NBFtsJkgKf5-VUq8PuAPjaDpNB5UATY",
+      imageUrl: undefined,
       ingredients: [
         { name: "Garlic Cloves", amountText: "6 cloves", numericValue: 6, unit: "cloves", category: "Produce" },
         { name: "Organic Heirloom Tomatoes", amountText: "3 large", numericValue: 3, unit: "large", category: "Produce" },
@@ -116,7 +116,7 @@ Cooking Steps:
       id: "ribeye-steak",
       recipeName: "Matured Ribeye Steak",
       yieldText: "2 Servings",
-      imageUrl: "https://lh3.googleusercontent.com/aida-public/AB6AXuAth5uh-PcqE5QNxglNjcAk0cwqfO1gfzBEbqc1kFLL3IU02PeWfB5NWBQq504u5m19WbI6x8pi1EYKN4PTPoXwRrB895Qus20tznQ3vu-67vRYqkc92ulEl9dcHZDAVjPwpPtmHl9grbrwxxoYTcEFCdLbaeQKtXV9ODq_tvLfMzDUsyi2QpfNR-NyQc1lIV5VRgxB6Ocg6X8CvFLSXeNe6nGqJrUMD5ko5KfEQLqNOKeet0FS5u47eIQwEVmDdpz9VYnr_VFxsds",
+      imageUrl: undefined,
       ingredients: [
         { name: "Prime Ribeye Steaks", amountText: "2 steaks", numericValue: 2, unit: "steaks", category: "Meat" },
         { name: "Fresh Rosemary Sprigs", amountText: "4 sprigs", numericValue: 4, unit: "sprigs", category: "Produce" },

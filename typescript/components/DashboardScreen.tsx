@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { Timer, Check, RotateCcw, Play, Pause, ShoppingBag, Plus, Sparkles, ChefHat } from "lucide-react";
+import { Timer, Check, RotateCcw, Play, Pause, ShoppingBag, Plus, Sparkles, ChefHat, Download } from "lucide-react";
 import { Recipe, Ingredient } from "../types";
+import { getRecipeGradientStyle } from "../gradient";
 
 interface DashboardScreenProps {
   recipe: Recipe;
@@ -133,6 +134,31 @@ export default function DashboardScreen({ recipe, onAddToShoppingList }: Dashboa
   const completedStepsCount = Object.values(completedSteps).filter(Boolean).length;
   const totalStepsWithTimers = recipe.steps.length;
 
+  const handleExportRecipe = () => {
+    const lines: string[] = [];
+    lines.push(`# ${recipe.recipeName}`);
+    lines.push(`Yield: ${recipe.yieldText}`);
+    lines.push("");
+    lines.push("## Ingredients");
+    recipe.ingredients.forEach((ing) => {
+      lines.push(`- ${ing.amountText} ${ing.name} (${ing.category})`);
+    });
+    lines.push("");
+    lines.push("## Steps");
+    recipe.steps.forEach((step) => {
+      const timer = step.timerDuration ? ` [${Math.floor(step.timerDuration / 60)}m ${step.timerDuration % 60}s]` : "";
+      lines.push(`${step.stepNumber}. ${step.title}: ${step.description}${timer}`);
+    });
+    const text = lines.join("\n");
+    const blob = new Blob([text], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `${recipe.recipeName.replace(/\s+/g, "_").toLowerCase()}.txt`;
+    a.click();
+    URL.revokeObjectURL(url);
+  };
+
   const handleSendToShoppingList = () => {
     // Only send ingredients not yet prep-checked (unchecked = need to buy)
     const uncheckedIngredients = recipe.ingredients.filter((ing, idx) => {
@@ -152,17 +178,10 @@ export default function DashboardScreen({ recipe, onAddToShoppingList }: Dashboa
 
   return (
     <div className="flex flex-col gap-10 max-w-2xl mx-auto" id="dashboard-screen-container">
-      {/* Recipe Large Card with image */}
+      {/* Recipe Large Card — 100% offline gradient */}
       <section className="relative h-64 w-full rounded-[32px] overflow-hidden custom-shadow" id="dashboard-hero">
-        <img
-          className="w-full h-full object-cover select-none"
-          src={
-            recipe.imageUrl ||
-            "https://lh3.googleusercontent.com/aida-public/AB6AXuAMH0AoMeNhqkc5P6saAPQrgkeFGj0vjiL4zrt_OfzBgUPIgdZ2zCQ8xUAAZcoYx-b55Y085_as691DFHmHDC4aQuOCPL4KBIXa6-GsCLfP7ynptkNkCy6SGBZ4w1rbbFlHbplfwndQKx_tivmwbF5jW8Tjdg-YmuUOuiGXDvDkCE1EOcLQ975KPV6xE_POLaS2pfuVQtbQNGqtrzGDlmCibhATM7da6-yj0EDCy1yvhkxfVgPfjfkRN70RejoD_IoNCaRpkEN2SX4"
-          }
-          alt={recipe.recipeName}
-        />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/20 to-transparent flex items-end p-6 select-none">
+        <div className="absolute inset-0" style={getRecipeGradientStyle(recipe.recipeName)} />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/75 via-black/15 to-transparent flex items-end p-6 select-none">
           <div className="flex flex-col gap-1">
             <span className="text-xs font-semibold text-primary-container uppercase tracking-widest flex items-center gap-1">
               <ChefHat className="w-4.5 h-4.5 animate-pulse" /> Active Sous-Chef Plan
@@ -172,25 +191,34 @@ export default function DashboardScreen({ recipe, onAddToShoppingList }: Dashboa
         </div>
       </section>
 
-      {/* Yield Servings Scaler */}
+      {/* Yield Servings Scaler + Export */}
       <section className="flex flex-col sm:flex-row justify-between sm:items-center gap-4 bg-surface-container-lowest p-6 rounded-3xl custom-shadow" id="yield-scaler-card">
         <div className="flex flex-col gap-1">
           <span className="text-xs font-semibold text-outline uppercase tracking-widest">Adjust Recipe Yield</span>
           <span className="text-lg font-bold text-primary">Multiplier: {scale}x ({recipe.yieldText})</span>
         </div>
-        <div className="flex gap-2 p-1 bg-surface-container rounded-full w-fit">
-          {[0.5, 1, 2].map((s) => (
-            <button
-              key={s}
-              type="button"
-              onClick={() => setScale(s)}
-              className={`px-5 py-2.5 rounded-full text-xs font-bold transition-all duration-200 cursor-pointer ${
-                scale === s ? "bg-primary text-on-primary shadow-sm" : "bg-transparent text-on-surface hover:bg-surface-container-high"
-              }`}
-            >
-              {s}x
-            </button>
-          ))}
+        <div className="flex items-center gap-2">
+          <button
+            onClick={handleExportRecipe}
+            className="px-4 py-2.5 text-xs font-bold rounded-full border border-outline text-on-surface hover:bg-surface-container-high transition-all active:scale-95 cursor-pointer flex items-center gap-1.5"
+            title="Export recipe as text file"
+          >
+            <Download className="w-3.5 h-3.5" /> Export
+          </button>
+          <div className="flex gap-2 p-1 bg-surface-container rounded-full w-fit">
+            {[0.5, 1, 2].map((s) => (
+              <button
+                key={s}
+                type="button"
+                onClick={() => setScale(s)}
+                className={`px-5 py-2.5 rounded-full text-xs font-bold transition-all duration-200 cursor-pointer ${
+                  scale === s ? "bg-primary text-on-primary shadow-sm" : "bg-transparent text-on-surface hover:bg-surface-container-high"
+                }`}
+              >
+                {s}x
+              </button>
+            ))}
+          </div>
         </div>
       </section>
 

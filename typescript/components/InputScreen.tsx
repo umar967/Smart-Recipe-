@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Sparkles, Clipboard, ChefHat, HelpCircle } from "lucide-react";
 import { PRESETS } from "../presets";
+import { getRecipeGradientStyle } from "../gradient";
 
 interface InputScreenProps {
   onDeconstruct: (text: string, recipeName?: string) => void;
@@ -154,13 +155,9 @@ export default function InputScreen({ onDeconstruct, loading, error }: InputScre
         </div>
       </section>
 
-      {/* Visual Inspiration Card */}
+      {/* Visual Inspiration Card — offline gradient */}
       <div className="relative w-full h-48 rounded-3xl overflow-hidden custom-shadow" id="inspiration-banner">
-        <img
-          alt="Kitchen Scene"
-          className="w-full h-full object-cover select-none"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuAth5uh-PcqE5QNxglNjcAk0cwqfO1gfzBEbqc1kFLL3IU02PeWfB5NWBQq504u5m19WbI6x8pi1EYKN4PTPoXwRrB895Qus20tznQ3vu-67vRYqkc92ulEl9dcHZDAVjPwpPtmHl9grbrwxxoYTcEFCdLbaeQKtXV9ODq_tvLfMzDUsyi2QpfNR-NyQc1lIV5VRgxB6Ocg6X8CvFLSXeNe6nGqJrUMD5ko5KfEQLqNOKeet0FS5u47eIQwEVmDdpz9VYnr_VFxsds"
-        />
+        <div className="absolute inset-0" style={getRecipeGradientStyle("Kitchen Inspiration")} />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent flex items-end p-6 select-none">
           <p className="text-white text-sm font-medium italic leading-relaxed">
             "Cooking is at once child's play and adult joy."

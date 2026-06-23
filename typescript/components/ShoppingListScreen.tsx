@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Check, Leaf, Container, Milk, Flame, Cookie, HelpCircle, Plus, Trash2, Trash } from "lucide-react";
 import { ShoppingItem, Ingredient } from "../types";
+import { getRecipeGradientStyle } from "../gradient";
 
 interface ShoppingListScreenProps {
   items: ShoppingItem[];
@@ -217,13 +218,9 @@ export default function ShoppingListScreen({
         </form>
       </section>
 
-      {/* Dynamic Visual Break / Farmer market produce Tip */}
+      {/* Farmer Market Banner — offline gradient */}
       <div className="relative w-full h-48 rounded-3xl overflow-hidden shadow-md group" id="shopping-market-banner">
-        <img
-          alt="Farmer market produce"
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-102 select-none"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuD4_VpBBj8QJuywWk2NU2VEmMzzKQ7n1wKIxkjiI1FhCh1B9AM8QxcBGl36nWs-jWKtjiQdCGQQ_hOZWSbyDZmErEV-aFzpdYKHVxM6go0VyNnyGRZ3Am-MLlDWwEzI3Mj4G_5_r7sLdBm5DVrHh2tZNv3hunaixazhxYIVeqH1-ZqFZnXIlAPSBVh5pONmw6LlHWCI70ESdvmXPUJJk1JnfEt7I1OM34QYNA63DSFTRyr_NBFtsJkgKf5-VUq8PuAPjaDpNB5UATY"
-        />
+        <div className="absolute inset-0" style={getRecipeGradientStyle("Fresh Market")} />
         <div className="absolute inset-0 bg-gradient-to-t from-on-surface/80 via-black/30 to-transparent flex flex-col justify-end p-6 select-none">
           <p className="text-primary-container text-xs font-bold uppercase tracking-widest mb-1">
             Chef's Tip
