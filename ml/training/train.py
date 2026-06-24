@@ -59,8 +59,8 @@ def main() -> None:
     labels = [row["category"] for row in train_data]
 
     pipeline = Pipeline([
-        ("tfidf", TfidfVectorizer(ngram_range=(1, 2), min_df=1, max_features=800)),
-        ("clf", LogisticRegression(max_iter=1000, C=4.0)),
+        ("tfidf", TfidfVectorizer(ngram_range=(1, 3), min_df=2, max_features=2000)),
+        ("clf", LogisticRegression(max_iter=2000, C=8.0, solver="lbfgs")),
     ])
     pipeline.fit(texts, labels)
 

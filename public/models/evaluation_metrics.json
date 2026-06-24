@@ -1,66 +1,66 @@
 {
-  "evaluationDate": "2026-06-12",
+  "evaluationDate": "2026-06-24",
   "model": {
     "name": "SmartRecipe-Edge-v1",
     "type": "Hybrid rule-parser + TF-IDF logistic regression",
-    "sizeMB": 0.101,
+    "sizeMB": 0.2306,
     "under50MB": true,
     "offline": true
   },
   "categoryClassifier": {
-    "categoryClassifierAccuracy": 100.0,
+    "categoryClassifierAccuracy": 45.56,
     "categoryClassifierReport": {
       "Bakery": {
         "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 20.0
+        "recall": 0.3,
+        "f1-score": 0.46153846153846156,
+        "support": 30.0
       },
       "Dairy": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 21.0
+        "precision": 0.627906976744186,
+        "recall": 0.9,
+        "f1-score": 0.7397260273972602,
+        "support": 30.0
       },
       "Meat": {
         "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 24.0
-      },
-      "Other": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 29.0
-      },
-      "Pantry": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 20.0
-      },
-      "Produce": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
+        "recall": 0.36666666666666664,
+        "f1-score": 0.5365853658536586,
         "support": 30.0
       },
-      "accuracy": 1.0,
+      "Other": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 30.0
+      },
+      "Pantry": {
+        "precision": 0.42857142857142855,
+        "recall": 0.3,
+        "f1-score": 0.35294117647058826,
+        "support": 30.0
+      },
+      "Produce": {
+        "precision": 0.2708333333333333,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.4126984126984127,
+        "support": 30.0
+      },
+      "accuracy": 0.45555555555555555,
       "macro avg": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 144.0
+        "precision": 0.5545519564414914,
+        "recall": 0.45555555555555555,
+        "f1-score": 0.4172482406597302,
+        "support": 180.0
       },
       "weighted avg": {
-        "precision": 1.0,
-        "recall": 1.0,
-        "f1-score": 1.0,
-        "support": 144.0
+        "precision": 0.5545519564414914,
+        "recall": 0.45555555555555555,
+        "f1-score": 0.4172482406597302,
+        "support": 180.0
       }
     },
-    "testSamples": 144
+    "testSamples": 180
   },
   "recipeDeconstruction": {
     "overallTaskAccuracyPercent": 94.64,
@@ -88,19 +88,19 @@
       }
     ],
     "latency": {
-      "avgMs": 13.65,
-      "p95Ms": 64.61,
-      "minMs": 0.14,
-      "maxMs": 64.61
+      "avgMs": 9.39,
+      "p95Ms": 41.38,
+      "minMs": 0.19,
+      "maxMs": 41.38
     }
   },
   "overallTaskAccuracyPercent": 94.64,
   "meetsAccuracyTarget": true,
   "latency": {
-    "avgMs": 13.65,
-    "p95Ms": 64.61,
-    "minMs": 0.14,
-    "maxMs": 64.61
+    "avgMs": 9.39,
+    "p95Ms": 41.38,
+    "minMs": 0.19,
+    "maxMs": 41.38
   },
   "meetsLatencyTarget": true,
   "cloudBenchmark": {
@@ -118,7 +118,7 @@
     },
     "smartRecipeEdge": {
       "overallTaskAccuracyPercent": 94.64,
-      "avgLatencyMs": 13.65,
+      "avgLatencyMs": 9.39,
       "requiresInternet": false,
       "costPer1000RequestsUSD": 0.0
     }

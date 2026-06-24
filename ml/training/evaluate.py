@@ -104,7 +104,6 @@ def main() -> None:
             },
         },
     }
-
     out_path = PUBLIC_MODEL_DIR / "evaluation_metrics.json"
     out_path.write_text(json.dumps(combined, indent=2), encoding="utf-8")
     print(json.dumps(combined, indent=2))
